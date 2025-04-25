@@ -28,6 +28,8 @@ urlpatterns = [
     # Social login
     path('auth/social/', include('allauth.socialaccount.urls')),
     path('api/consultation/', include('consultation.urls')),
+    path('api/diagnosis/', include('diagnosis.urls')),
+    path('api/patient_form/', include('patient_form.urls')),
   
 
 ]
